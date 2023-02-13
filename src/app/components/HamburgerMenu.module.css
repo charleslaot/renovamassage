@@ -1,0 +1,96 @@
+.hamburgerMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+  }
+
+  .hamburgerMenu:hover .hamburger {
+    transform: rotate(90);
+    transition: all 0.3s;
+  }
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    transition: all 0.3s;
+    transform-origin: center;
+  }
+  
+  .open span:nth-of-type(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .open span:nth-of-type(2) {
+    opacity: 0;
+  }
+  
+  .open span:nth-of-type(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 999;
+    transform: translateX(-100%);
+    transition: all 0.3s;
+  }
+  
+  .open {
+    transform: translateX(0);
+  }
+  
+  .menu ul {
+    list-style: none;        
+    padding: 6rem;
+    line-height: 42px;
+    text-align: center;
+  }
+  
+  .menu li {
+    padding: 8px 0;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-color: lightblue;
+  }
+  
+  .menu a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  .closeButton {
+    top: 1.5rem;
+    right: 2rem;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    background-color: black;
+  }
+  
+  .closeIcon {
+    color: white;
+    font-size: 2rem;
+  }

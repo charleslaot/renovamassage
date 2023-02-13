@@ -1,0 +1,25 @@
+.navbarMenu {    
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbarItem {
+    margin-right: 1rem;
+  }
+  
+  .navbarLink {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .navbarLink:hover {
+    text-decoration: underline;
+  }
+  
