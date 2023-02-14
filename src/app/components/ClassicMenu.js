@@ -1,29 +1,33 @@
-import Link from 'next/link';
-import styles from './ClassicMenu.module.css';
+import Link from 'next/link'
+import styles from './ClassicMenu.module.css'
+import logo from '../../../public/logo4.png'
 
 function ClassicMenu() {
   return (    
     <ul className={styles.navbarMenu}>
-        <li className={styles.navbarItem}>
-            <Link className={styles.navbarLink} href="/">
-            Home
-            </Link>
-        </li>
-        <li className={styles.navbarItem}>
-            <Link className={styles.navbarLink} href="/services">
-                Services
-            </Link>            
-        </li>
-        <li className={styles.navbarItem}>
-            <Link className={styles.navbarLink} href="/contact">
-                Contact Us
-            </Link>
-        </li>
-        <li className={styles.navbarItem}>
-            <Link className={styles.navbarLink} href="/about">
-                About
-            </Link>
-        </li>
+        <img src={logo.src} alt="Logo" className={styles.logo}/>
+        <div className={styles.navbarContainer}>
+            <li className={styles.navbarItem}>
+                <Link className={styles.navbarLink} href="/">
+                    Home
+                </Link>
+            </li>
+            <li className={styles.navbarItem}>
+                <Link className={styles.navbarLink} href="/">
+                    Services
+                </Link>            
+            </li>
+            <li className={styles.navbarItem}>
+                <Link className={styles.navbarLink} href="/">
+                    Contact Us
+                </Link>
+            </li>
+            <li className={styles.navbarItem}>
+                <Link className={styles.navbarLink} href="/">
+                    About
+                </Link>
+            </li>
+        </div>
     </ul>    
   );
 }

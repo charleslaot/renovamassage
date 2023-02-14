@@ -1,13 +1,12 @@
 import React from 'react'
-import logo from '../../../public/favicon.png'
+import logo from '../../../public/logo5.png'
 import styles from './MobileHeader.module.css'
 
 
 function MobileHeader() {
   return (
     <div className={styles.mobileHeader}>
-        <img src={logo.src} alt="Logo" className={styles.logo}/>
-        <h1 className={styles.header}>Renova Massage</h1>
+        <img src={logo.src} alt="Logo" className={styles.logo}/>        
     </div>
   )
 }

@@ -21,8 +21,8 @@ function HamburgerMenu() {
         </button>
         <ul>
           <li onClick={toggleMenu}><a href="#">Home</a></li>
-          <li onClick={toggleMenu}><a href="#SectionHero">Services</a></li>
-          <li onClick={toggleMenu}><a href="#">Contact</a></li>
+          <li onClick={toggleMenu}><a href="#">Services</a></li>
+          <li onClick={toggleMenu}><a href="#">Contact Us</a></li>
           <li onClick={toggleMenu}><a href="#">About</a></li>
         </ul>        
       </nav>

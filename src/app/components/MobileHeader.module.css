@@ -1,16 +1,13 @@
 .mobileHeader {
     width: 80%;    
     display: flex;    
-    justify-content: space-evenly;
+    justify-content: left;
 }
 
 .logo {
-    max-width: 85px;
-}
-
-.header {
-    color: #DDC8E8;
-    font-size: 2em;
-    align-self: center;
-    font-family: 'Dancing Script', cursive;
+    top: 12px;
+    right: 8px;
+    width: 45vw;
+    max-width: 215px;
+    position: relative;    
 }
