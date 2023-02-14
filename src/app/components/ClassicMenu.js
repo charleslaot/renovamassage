@@ -10,18 +10,18 @@ function ClassicMenu() {
             </Link>
         </li>
         <li className={styles.navbarItem}>
-            <Link className={styles.navbarLink} href="/">
-                About
-            </Link>
-        </li>
-        <li className={styles.navbarItem}>
-            <Link className={styles.navbarLink} href="#SectionHero">
+            <Link className={styles.navbarLink} href="/services">
                 Services
-            </Link>
+            </Link>            
         </li>
         <li className={styles.navbarItem}>
             <Link className={styles.navbarLink} href="/contact">
-                Contact
+                Contact Us
+            </Link>
+        </li>
+        <li className={styles.navbarItem}>
+            <Link className={styles.navbarLink} href="/about">
+                About
             </Link>
         </li>
     </ul>    

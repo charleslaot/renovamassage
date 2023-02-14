@@ -1,14 +1,12 @@
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
-import NavBar from "./components/NavBar";
-import SectionHero from "./components/SectionHero";
+import SectionHeader from './components/SectionHeader'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <NavBar />
-      <SectionHero />
+      <SectionHeader />
     </main>
   )
 }

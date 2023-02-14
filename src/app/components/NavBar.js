@@ -3,19 +3,20 @@
 import React from 'react'
 import HamburgerMenu from './HamburgerMenu'
 import ClassicMenu from './ClassicMenu'
+import MobileHeader from './MobileHeader'
 import styles from './NavBar.module.css'
-
 
 function NavBar() {
   return (
-    <nav className={styles.navbar}>
-      <div className={styles.mobile}>
+    <>
+      <nav className={`${styles.navbar} ${styles.mobileMenu}`}>
         <HamburgerMenu />
-      </div>
-      <div className={styles.desktop}>
+        <MobileHeader />
+      </nav>
+      <nav className={`${styles.navbar} ${styles.desktopMenu}`}>
         <ClassicMenu />
-      </div>
-    </nav>
+      </nav>
+    </>
     
   )
 }
