@@ -7,13 +7,13 @@
     background-color: rgba(0, 0, 0, 0.5);        
 }
 
-@media (max-width: 415px) {
+@media (max-width: 480px) {
     .desktopMenu {
         display: none;
     }    
 }
 
-@media (min-width: 416px) {     
+@media (min-width: 481px) {     
     .mobileMenu {
         display: none;             
     }
