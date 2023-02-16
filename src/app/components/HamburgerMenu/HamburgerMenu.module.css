@@ -4,7 +4,7 @@
     align-items: center;
     padding: 1rem;
     position: relative;
-    width: 16%;
+    width: 15%;
   }
 
   .hamburgerMenu:hover .hamburger {
@@ -99,6 +99,6 @@
   }
   
   .closeIcon {
-    color: #E1CEEA;
+    color: #5DBA9A;
     font-size: 2rem;
   }

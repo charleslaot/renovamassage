@@ -1,9 +1,9 @@
 'use client'
 
 import React from 'react'
-import HamburgerMenu from './HamburgerMenu'
-import ClassicMenu from './ClassicMenu'
-import MobileHeader from './MobileHeader'
+import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
+import ClassicMenu from '../ClassicMenu/ClassicMenu'
+import MobileHeader from '../MobileHeader/MobileHeader'
 import styles from './NavBar.module.css'
 
 function NavBar() {

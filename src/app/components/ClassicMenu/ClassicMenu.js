@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from './ClassicMenu.module.css'
-import logo from '../../../public/logo4.png'
+import logo from '../../../../public/logo4.png'
 
 function ClassicMenu() {
   return (    
@@ -19,7 +19,7 @@ function ClassicMenu() {
             </li>
             <li className={styles.navbarItem}>
                 <Link className={styles.navbarLink} href="/">
-                    Contact Us
+                    Contact
                 </Link>
             </li>
             <li className={styles.navbarItem}>

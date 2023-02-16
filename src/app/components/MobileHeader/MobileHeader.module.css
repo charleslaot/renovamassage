@@ -1,7 +1,8 @@
 .mobileHeader {
-    width: 80%;    
-    display: flex;    
-    justify-content: left;
+    width: 85%;    
+    display: flex;     
+    justify-content: space-between;    
+    align-items: center;
 }
 
 .logo {
@@ -10,4 +11,8 @@
     width: 45vw;
     max-width: 215px;
     position: relative;    
+}
+
+.langSwitch {
+
 }
