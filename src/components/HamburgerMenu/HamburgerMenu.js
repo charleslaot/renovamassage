@@ -36,10 +36,34 @@ function HamburgerMenu() {
               </button>
             ))}
           </div>
-          <li onClick={toggleMenu}><a href="#home"><Trans i18nKey="menu.home">Home</Trans></a></li>
-          <li onClick={toggleMenu}><a href="#services"><Trans i18nKey="menu.services">Services</Trans></a></li>
-          <li onClick={toggleMenu}><a href="#contact"><Trans i18nKey="menu.contact">Contact</Trans></a></li>
-          <li onClick={toggleMenu}><a href="#about"><Trans i18nKey="menu.about">About</Trans></a></li>
+          <li onClick={toggleMenu}>
+            <a href="#home">
+              <Trans i18nKey="menu.home">
+                Home
+              </Trans>
+            </a>
+          </li>
+          <li onClick={toggleMenu}>
+            <a href="#services">
+              <Trans i18nKey="menu.services">
+                Services
+              </Trans>
+            </a>
+          </li>
+          <li onClick={toggleMenu}>
+            <a href="#contact">
+              <Trans i18nKey="menu.contact">
+                Contact
+              </Trans>
+            </a>
+          </li>
+          <li onClick={toggleMenu}>
+            <a href="#about">
+              <Trans i18nKey="menu.about">
+                About
+              </Trans>
+            </a>
+          </li>
         </ul>        
       </nav>
     </div>
