@@ -1,5 +1,3 @@
-'use client'
-
 import React from 'react'
 import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
 import ClassicMenu from '../ClassicMenu/ClassicMenu'

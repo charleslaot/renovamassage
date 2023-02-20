@@ -7,7 +7,7 @@ function SectionHeader() {
   return (
     <header className={styles.sectionHeader}>
         <NavBar />
-        
+        <HeaderHero />
     </header>
   )
 }

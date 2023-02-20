@@ -20,10 +20,10 @@ function HamburgerMenu() {
           <span className={styles.closeIcon}>X</span>
         </button>
         <ul>
-          <li onClick={toggleMenu}><a href="#">Home</a></li>
-          <li onClick={toggleMenu}><a href="#">Services</a></li>
-          <li onClick={toggleMenu}><a href="#">Contact</a></li>
-          <li onClick={toggleMenu}><a href="#">About</a></li>
+          <li onClick={toggleMenu}><a href="#home">Home</a></li>
+          <li onClick={toggleMenu}><a href="#services">Services</a></li>
+          <li onClick={toggleMenu}><a href="#contact">Contact</a></li>
+          <li onClick={toggleMenu}><a href="#about">About</a></li>
         </ul>        
       </nav>
     </div>
