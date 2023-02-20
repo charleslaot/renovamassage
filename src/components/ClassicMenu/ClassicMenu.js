@@ -1,5 +1,6 @@
 import styles from './ClassicMenu.module.css'
 import logo from '../../assets/logo4.png'
+import LanguageSwitch from '../LanguageSwitch/LanguageSwitch';
 
 function ClassicMenu() {
   return (    
@@ -27,6 +28,7 @@ function ClassicMenu() {
                 </a>
             </li>
         </div>
+        <LanguageSwitch />
     </ul>    
   );
 }
