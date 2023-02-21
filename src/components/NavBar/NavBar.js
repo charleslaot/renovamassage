@@ -3,6 +3,7 @@ import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
 import ClassicMenu from '../ClassicMenu/ClassicMenu'
 import MobileHeader from '../MobileHeader/MobileHeader'
 import styles from './NavBar.module.css'
+import LanguageSwitch from '../LanguageSwitch/LanguageSwitch'
 
 function NavBar() {
   return (
@@ -14,6 +15,7 @@ function NavBar() {
       <nav className={`${styles.navbar} ${styles.desktopMenu}`}>
         <ClassicMenu />
       </nav>
+      <LanguageSwitch />
     </>
     
   )

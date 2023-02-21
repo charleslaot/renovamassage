@@ -1,22 +1,16 @@
 import { useState } from 'react';
 import styles from './HamburgerMenu.module.css';
-import { useTranslation, Trans } from 'react-i18next';
-
-
-const lngs = {
-  en: { nativeName: 'English' },
-  es: { nativeName: 'Spanish' }
-};
+import { useTranslation } from 'react-i18next';
 
 function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false);
   
   function toggleMenu() {
     setIsOpen(!isOpen);
-  }   
+  }
 
-  const { i18n } = useTranslation();
-  
+  const { t } = useTranslation();
+
   return (
     <div className={styles.hamburgerMenu}>
       <button className={`${styles.hamburger} ${isOpen ? styles.open : ''}`} onClick={toggleMenu}>
@@ -28,40 +22,25 @@ function HamburgerMenu() {
         <button className={styles.closeButton} onClick={toggleMenu}>
           <span className={styles.closeIcon}>X</span>
         </button>
-        <ul>
-          <div>
-            {Object.keys(lngs).map((lng) => (
-              <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
-                {lngs[lng].nativeName}
-              </button>
-            ))}
-          </div>
+        <ul>          
           <li onClick={toggleMenu}>
             <a href="#home">
-              <Trans i18nKey="menu.home">
-                Home
-              </Trans>
+              {t('menu.home')}
             </a>
           </li>
           <li onClick={toggleMenu}>
             <a href="#services">
-              <Trans i18nKey="menu.services">
-                Services
-              </Trans>
+              {t('menu.services')}
             </a>
           </li>
           <li onClick={toggleMenu}>
             <a href="#contact">
-              <Trans i18nKey="menu.contact">
-                Contact
-              </Trans>
+              {t('menu.contact')}
             </a>
           </li>
           <li onClick={toggleMenu}>
             <a href="#about">
-              <Trans i18nKey="menu.about">
-                About
-              </Trans>
+              {t('menu.about')}
             </a>
           </li>
         </ul>        
