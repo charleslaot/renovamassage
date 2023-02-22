@@ -3,18 +3,5 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
-    height: 95px;    
-    /* background-color: rgba(0, 0, 0, 0.5);         */
-}
-
-@media (max-width: 768px) {
-    .desktopMenu {
-        display: none;
-    }    
-}
-
-@media (min-width: 769px) {     
-    .mobileMenu {
-        display: none;             
-    }
+    height: 95px;        
 }

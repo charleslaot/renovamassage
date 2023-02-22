@@ -1,23 +1,39 @@
 import React from 'react'
-import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
+import styles from './NavBar.module.css'
+import { useMediaQuery } from 'react-responsive'
 import ClassicMenu from '../ClassicMenu/ClassicMenu'
 import MobileHeader from '../MobileHeader/MobileHeader'
-import styles from './NavBar.module.css'
+import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
 import LanguageSwitch from '../LanguageSwitch/LanguageSwitch'
 
-function NavBar() {
-  return (
-    <>
-      <nav className={`${styles.navbar} ${styles.mobileMenu}`}>
+
+function NavBar() { 
+
+  const MobileNav = () => {
+    return (
+      <>
         <HamburgerMenu />
         <MobileHeader />
-      </nav>
-      <nav className={`${styles.navbar} ${styles.desktopMenu}`}>
-        <ClassicMenu />
-      </nav>
+      </>
+    );
+  }
+
+  const ClassicNav = () => {
+    return (
+      <>
+        <ClassicMenu />        
+      </>
+    );
+  }
+  
+  const isMobile = useMediaQuery({query: '(max-width: 769px)'})  
+  const Menu = isMobile ? MobileNav : ClassicNav;  
+  
+  return (
+    <nav className={styles.navbar}>
+      <Menu />
       <LanguageSwitch />
-    </>
-    
+    </nav>  
   )
 }
 
