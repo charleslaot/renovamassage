@@ -1,5 +1,5 @@
-import { configureStore } from '@reduxjs/toolkit';
-import languageReducer from './components/LanguageSwitch/languageSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import languageReducer from "./components/LanguageSwitch/languageSlice";
 
 const store = configureStore({
   reducer: {
@@ -7,4 +7,4 @@ const store = configureStore({
   },
 });
 
-export default store
+export default store;

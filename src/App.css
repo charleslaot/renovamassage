@@ -2,6 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: left;
-  align-items: center;  
+  align-items: center;
   min-height: 100vh;
 }
