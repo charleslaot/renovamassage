@@ -5,3 +5,11 @@
   flex-direction: row;
   align-items: center;
 }
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    padding-top: 4rem;
+    max-width: 1920px;
+    justify-content: center;
+  }
+}

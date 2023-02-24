@@ -6,7 +6,7 @@ import ClassicMenu from "../ClassicMenu/ClassicMenu";
 import LanguageSwitch from "../LanguageSwitch/LanguageSwitch";
 
 function NavBar() {
-  const isMobile = useMediaQuery({ query: "(max-width: 769px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 1024px)" });
   const Menu = isMobile ? MobileMenu : ClassicMenu;
 
   return (
