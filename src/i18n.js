@@ -16,6 +16,11 @@ i18n.use(initReactI18next).init({
           contact: "Contact",
           about: "About",
         },
+        hero: {
+          header: "Give yourself a moment",
+          subheader: "of relaxation",
+          button: "Schedule Now",
+        },
       },
     },
     es: {
@@ -25,6 +30,11 @@ i18n.use(initReactI18next).init({
           services: "Servicios",
           contact: "Contacto",
           about: "Acerca",
+        },
+        hero: {
+          header: "Date un momento",
+          subheader: "de relajación",
+          button: "Haz una Cita",
         },
       },
     },

@@ -1,12 +1,10 @@
 .navbarMenu {
   width: 100%;
   display: flex;
-  margin: 0 auto;
   list-style: none;
   max-width: 1080px;
   align-items: center;
-  justify-content: center;
-  font-family: "al-fresco", sans-serif;
+  justify-content: space-between;
 }
 
 .navbarContainer {
@@ -22,6 +20,7 @@
   font-size: 3em;
   font-weight: 700;
   color: #2e1c38;
+  font-family: "al-fresco", sans-serif;
 }
 
 .logo {

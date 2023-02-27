@@ -6,3 +6,37 @@
   background-position: center;
   background-image: url("../../assets/img20.jpg");
 }
+
+.hero {
+  color: black;
+  font-size: 4vw;
+  padding: 0 1rem;
+  margin-top: 10vw;
+  margin-left: 2vw;
+  max-width: 1024px;
+}
+
+.hero span {
+  padding: 0.5rem 1rem;
+}
+
+.hero span:first-of-type {
+  font-size: 6vw;
+  color: #2e1c38;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: rgb(93, 186, 154, 0.65);
+}
+
+.hero span:last-of-type {
+  font-size: 9vw;
+  font-family: "al-fresco", sans-serif;
+}
+
+.hero button {
+  border: 0;
+  padding: 1rem;
+  font-size: 0.75em;
+  border-radius: 16px;
+  background-color: rgb(10, 148, 200, 0.9);
+}
