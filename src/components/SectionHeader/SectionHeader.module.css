@@ -36,6 +36,7 @@
 .hero button {
   border: 0;
   padding: 1rem;
+  color: white;
   font-size: 0.75em;
   border-radius: 16px;
   background-color: rgb(10, 148, 200, 0.9);
