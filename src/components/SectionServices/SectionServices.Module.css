@@ -1,8 +1,20 @@
 .sectionServices {
   width: 100%;
-  height: 85vw;
-  max-height: 750px;
-  background-size: cover;
-  background-position: center;
-  background-image: url("../../assets/img20.jpg");
+  display: flex;
+  color: black;
+  padding: 0 2rem;
+  flex-direction: column;
+  background-color: #f4f3f8;
+}
+
+.header {
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards img {
+  margin: 0.5rem 0;
 }

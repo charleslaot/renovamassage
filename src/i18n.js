@@ -21,6 +21,9 @@ i18n.use(initReactI18next).init({
           subheader: "of relaxation",
           button: "Schedule Now",
         },
+        services: {
+          header: "Our Services",
+        },
       },
     },
     es: {
@@ -35,6 +38,9 @@ i18n.use(initReactI18next).init({
           header: "Date un momento",
           subheader: "de relajación",
           button: "Haz una Cita",
+        },
+        services: {
+          header: "Nuestros Servicios",
         },
       },
     },
