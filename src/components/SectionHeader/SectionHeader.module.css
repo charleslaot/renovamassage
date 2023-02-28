@@ -13,7 +13,6 @@
   padding: 0 1rem;
   margin-top: 10vw;
   margin-left: 2vw;
-  max-width: 1024px;
 }
 
 .hero span {
@@ -35,10 +34,10 @@
 
 .hero button {
   border: 0;
-  padding: 1rem;
+  padding: 0.75rem 1.5rem;
   color: white;
-  font-weight: 600;
-  font-size: 0.75em;
+  font-weight: 700;
+  font-size: 0.85em;
   border-radius: 16px;
   background-color: rgb(10, 148, 200, 0.9);
 }

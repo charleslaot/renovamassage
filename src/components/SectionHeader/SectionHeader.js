@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
-import styles from "./SectionHeader.module.css";
 import { useTranslation } from "react-i18next";
+import styles from "./SectionHeader.module.css";
 
 function SectionHeader() {
   const { t } = useTranslation();
