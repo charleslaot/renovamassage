@@ -7,9 +7,6 @@
   background-color: #f4f3f8;
 }
 
-.header {
-}
-
 .cards {
   display: flex;
   flex-direction: column;
