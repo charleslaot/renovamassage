@@ -12,19 +12,20 @@ function SectionServices() {
   return (
     <section className={styles.sectionServices}>
       <div className={styles.header}>
-        <span>{t("services.header")}</span> <br />
-        <span>Here is a wide range of services</span> <br />
-        <span>we provide</span>
+        <h1>{t("services.header")}</h1> <br />
+        <h2>
+          Here is a wide range of services
+          <br />
+          <span>we provide</span>
+        </h2>
         <p>
           The point of using Lorem Ipsum is that it has a more-or-less normal
           distribution of letters, as opposed to using 'Content here, content
           here', making it look like readable English.
         </p>
       </div>
-      <div className={styles.card}>
-        <div className={styles.card}>
-          <img src={img1} alt="Massage1" />
-        </div>
+      <div className={styles.cards_container}>
+        <img src={img1} alt="Massage1" />
         <img src={img2} alt="Massage2" />
         <img src={img3} alt="Massage3" />
         <img src={img4} alt="Massage4" />

@@ -1,0 +1,37 @@
+.sectionPricing {
+  padding: 0 2rem;
+}
+
+.cards_container {
+  display: flex;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/img22.jpg");
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.bottom_left {
+}
+
+.bottom_right {
+}
+
+.bottom_btn {
+  width: 100%;
+}

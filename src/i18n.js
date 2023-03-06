@@ -24,6 +24,9 @@ i18n.use(initReactI18next).init({
         services: {
           header: "Our Services",
         },
+        pricing: {
+          header: "Best Deals",
+        },
       },
     },
     es: {
@@ -41,6 +44,9 @@ i18n.use(initReactI18next).init({
         },
         services: {
           header: "Nuestros Servicios",
+        },
+        pricing: {
+          header: "Mejores Ofertas",
         },
       },
     },
